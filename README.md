@@ -20,7 +20,7 @@ RecvController[受信コントローラー\nTelegramReceiverController]
 AppClient[上位アプリケーション]
 
     %% サブグラフ定義
-    subgraph AWSCloud["AWS Cloud"]
+    subgraph AWSCloud["AWS"]
         subgraph 送信側システム
             SendController
             SendService
